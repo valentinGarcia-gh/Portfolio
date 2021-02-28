@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- Header Section -->
 <head>
     <meta charset="utf-8">
     <title>Valentin's Portfolio</title>
@@ -14,15 +14,15 @@
 <body>
     <!-- Nav Bar -->
     <div id="container">
-        <nav class="navbar navbar-expand-lg navbar-light val-color">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light val-color">
             <div class="container-fluid">
                 <h2>Valentin's Portfolio</h2>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbar nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link val-color" href="#about-me">About Me</a>
@@ -38,14 +38,16 @@
             </div>
         </nav>
 
+        <!-- Title Section -->
         <section id="title">
-            <img class="valPic" src="./Assets/Images/ValPic.jpeg" alt="picture of Val">
+            <img class="valPic" src="/Assets/Images/ValPic.jpeg" alt="picture of Val">
             <h1>
                 Valentin Garcia
             </h1>
             <h2>A Full Stack Web Developer</h2>
         </section>
         
+        <!-- About Me Section -->
         <section id="about-me">
             <h1>
                 About Me
@@ -53,8 +55,28 @@
             <p>Valentin has over 5 years in the i.t. field. Equipped with a Master's in Information Technology with a
                 concentration in Software Development, as well as his experience as an application developer, he has worked at international companies with much success.
             </p>
+            <br>
+            <h2>My Skills</h2>
+            <ul>
+                <li>MERN Stack</li>
+                <li>MEAN Stack</li>
+                <li>API's</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Command Line</li>
+                <li>Git</li>
+            </ul>
         </section>
 
+        <!-- My Work Section -->
         <section id="my-work">
             <h2>My Work</h2>
             <p>Below are some examples of Val's most recent projects</p>
@@ -77,6 +99,7 @@
             
         </section>
 
+        <!-- Contact Me Section -->
         <section id="contact-me">
             <h2>Contact Me</h2>
             <h3>Want to send me a message? Click on the button below!</h3>
@@ -88,6 +111,7 @@
 
         </section>
 
+        <!-- Footer Section -->
         <section id="footer">
             <p class="copyright">© 2021 Valentin Garcia.</p>
         </section>
