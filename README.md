@@ -44,4 +44,5 @@ GIVEN I need to sample a potential employee's previous work
 
 ## Result
 I created a basic site that meets the acceptance criteria given by the instructors which for now will serve as my portfolio. It will be an ongoing project that will be updated as more projects are completed and more experience achieved. 
-
+Below is what the portfolio looks like. 
+![Screenshot](./Assets/Images/Portfolio.png)
