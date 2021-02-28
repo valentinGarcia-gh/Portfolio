@@ -1,11 +1,12 @@
 # 02 Advanced CSS: Portfolio
 
 ## Installation
+```
 Link to working site
 <https://valentingarcia-gh.github.io/Portfolio/>
 Link to Github repo
 <https://github.com/valentinGarcia-gh/Portfolio>
-
+```
 ## My Task
 
 In this week's project, I was given the task to create a portfolio website with my basic information, a current picture of myself, a way to contact me, and my recent projects. 
