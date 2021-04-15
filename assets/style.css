@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+  padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, sans-serif;
+}
+
+h1,h2,h3,h4,p{
+  margin-bottom: 10px;
+}
+
+/* Nav Bar */
+.container{
+  background-color: #456268;
+}
+.val-color{
+  color: #d0e8f2!important;
+  background-color: #456268;
+
+}
+
+/* my Selfie  */
+.valPic{
+  width: 15%;
+  border-radius: 25%;
+}
+
+/* Sections */
+section{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #fcf8ec;
+  position: relative;
+}
+section > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Title */
+section:nth-of-type(1){
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+section:nth-of-type(1):after {
+  content: '';
+  position: absolute;
+  left: 0;top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, .4);
+  z-index: 1;
+}
+
+/* About Me */
+section:nth-of-type(2){
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcf8ec;
+
+}
+section:nth-of-type(2):after {
+  content: '';
+  position: absolute;
+  left: 0;top: 0;
+  width: 100%; height: 100%;
+  background: #79a3b1;
+  z-index: 1;
+}
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+/* My Work Section */
+section:nth-of-type(3){
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcf8ec;
+
+}
+section:nth-of-type(3):after {
+  content: '';
+  position: absolute;
+  left: 0;top: 0;
+  width: 100%; height: 100%;
+  background: #79a3b1;
+  z-index: 1;
+}
+
+.col-md-8 {
+  color: #fcf8ec;
+  background-color: #79a3b1 ;
+}
+
+
+/* Contact Me Section */
+section:nth-of-type(4){
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcf8ec;
+  
+}
+section:nth-of-type(4):after {
+  content: '';
+  position: absolute;
+  left: 0;top: 0;
+  width: 100%; height: 100%;
+  background: #79a3b1;
+  z-index: 1;
+}
+
+/* Buttons */
+.button {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top,  #11CDD4,  #11999E);
+  background-image: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  background-image: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background-image: -o-linear-gradient(top,  #11CDD4,  #11999E);
+  background-image: linear-gradient(to bottom,  #11CDD4,  #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #FFFFFF !important;
+  background: #30E3CB;
+  background-image: webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background-image: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background-image: -o-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background-image: linear-gradient(to bottom,  #30E3CB,  #2BC4AD);
+  text-decoration: none;
+}
+
+/* Footer Section */
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%; height: 0;
+  background-color: #79a3b1;
+  color: #fcf8ec;
+  text-align: center;
+}

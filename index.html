@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<!-- Header Section -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Valentin's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- test -->
+    <div id="container">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light val-color">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbar nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active val-color" aria-current="page" href="#">
+                                <h2>Valentin's Portfolio</h2>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link val-color" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                        <a class="nav-link val-color" href="#my-work">My Work</a>
+                        <li class="nav-item">
+                            <a class="nav-link val-color" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Title Section -->
+        <section id="title">
+            <img class="valPic" src="./assets/images/ValPic.jpeg" alt="picture of Val">
+            <h1>
+                Valentin Garcia
+            </h1>
+            <h2>A Full Stack Web Developer</h2>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h1>
+                About Me
+            </h1>
+            <p>I have over 5 years in the I.T. field. Equipped with a Master's in Information Technology with a
+                concentration in Software Development, as well as my experience as an application developer, I have
+                worked at international fortune 500 companies with much success.
+            </p>
+            <br>
+            <h2>My Skills</h2>
+            <ul>
+                <li>MERN Stack</li>
+                <li>MEAN Stack</li>
+                <li>API's</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Command Line</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <!-- My Work Section -->
+        <section id="my-work">
+            <h2>My Work</h2>
+            <p>Below are some examples of Val's most recent projects</p>
+            <br>
+
+            <div class="card-group">
+                <div class="card">
+                    <a href="https://mikebird2414.github.io/Well-Being/"><img class="card-img-top"
+                            src="./assets/images/myMental.png" style="height: 400px;" alt="My Mental webpage"></a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">My Mental App</h5>
+                        <p class="card-text text-dark">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                        <a class="button" href="https://github.com/mikebird2414/Well-Being">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://valentingarcia-gh.github.io/randomPasswordGenerator"><img class="card-img-top"
+                            src="./assets/images/passwordGenerator.png" alt="Random Password Generator webpage"></a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Random Password Generator</h5>
+                        <p class="card-text text-dark">creates a random password of length 8-128 chars using upper and
+                            lower case letters, special characters, and numbers.</p>
+                        <a class="button" href="https://github.com/valentinGarcia-gh/randomPasswordGenerator">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://valentingarcia-gh.github.io/work-day-scheduler/"><img class="card-img-top"
+                            src="./assets/images/workdayScheduler.gif" alt="Workday Scheduler webpage"></a>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Workday Scheduler</h5>
+                        <p class="card-text text-dark">Creates a workday scheduler that allows the user to add events on
+                            a workday calendar and shows when it is coming up or has passed for the day.</p>
+                        <a class="button" href="https://github.com/valentinGarcia-gh/work-day-scheduler">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <h3>Want to send me a message? Click on the button below!</h3>
+            <p class="contact-message">Feel free to send me an email or add me on LinkedIn. Lets network!</p>
+            <a class="button" id="emailBtn" href="mailto:vgarcia0587@gmail.com">Send Me A Message</a>
+            <br>
+            <a class="button" id="linkedInBtn" href="https://www.linkedin.com/in/valentin-garcia-07832665/">LinkedIn</a>
+            <br>
+            <a class="button" id="resumeBtn" href="./assets/Valentin_Garcia_Resume.pdf" download>Resume</a>
+            <br>
+            <a class="button" id="ghBtn" href="https://github.com/valentinGarcia-gh">GitHub</a>
+        </section>
+
+        <!-- Footer Section -->
+        <section id="footer">
+            <p class="copyright">© 2021 Valentin Garcia.</p>
+        </section>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
